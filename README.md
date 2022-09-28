@@ -12,7 +12,7 @@ $ git apply cse_server.patch
 ##### 2. Unzip benchmarks files
 
 ```
-zip -F benchmarks.zip --out single-benchmark.zip && unzip single-benchmark.zip
+zip -F benchmarks.zip --out single-benchmark.zip && unzip single-benchmark.zip && mkdir benchmarks/parsec-2.1/inputs/streamcluster
 ```
 
 ### 3. Environemnt setup
